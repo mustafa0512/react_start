@@ -5,7 +5,7 @@ import { AiOutlineSearch } from "react-icons/ai"
 const Header = () => {
     return (
         <>
-            <header className=" w-full  mt-[10px] md:flex justify-between px-2 md:h-[60px]"  >
+            <header className="w-full  mt-[10px] md:flex justify-between px-2 md:h-[60px]"  >
                 <div className="flex justify-center item-center">
                     <img className="md:w-[190px] w-[130px] md:mr-[20px] content-center" src="/img/logo-zak-pharmacy.svg" alt="" />
                 </div>

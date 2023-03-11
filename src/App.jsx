@@ -4,7 +4,7 @@ import './App.scss'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Profile from './pages/Profile'
-import Layout from './layout/Layaut'
+// import Layout from './layout/Layaut'
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     return (
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/profile" element={<Layout/>} />
+        <Route path="/profile" element={<Profile/>} />
       </Routes>
     )
   }
