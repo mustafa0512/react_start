@@ -3,7 +3,7 @@ module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-  ],  
+  ],
   theme: {
     extend: {},
     screens: {
@@ -14,13 +14,15 @@ module.exports = {
       lg: '1200px',
       xl: '1700px',
     },
-    colors:{
-      green:'#00AC73',
+    colors: {
+      green: '#00AC73',
       gray: '#7E7E7E',
       bgGray: 'rgba(126, 126, 126, 0.1);',
       darkGreen: '#00504D',
-    }
-
+    },
+    boxShadow: {
+      'xl': '0px 0px 20px rgba(0, 0, 0, 0.12)',
+    },
   },
   plugins: [],
 }
